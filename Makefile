@@ -27,4 +27,4 @@ $(EXECUTABLE): $(OBJECTS)
 
 # Clean rule
 clean:
-	del -Y $(BINDIR)\*
+	del /Q $(BINDIR)\*
